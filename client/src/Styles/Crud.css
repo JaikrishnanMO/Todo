@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f6ff;
+}
+.Container{
+    padding: 10px;
+    max-width: fit-content;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.btn{
+    border: none;
+    padding:7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 90);
+    color: white;
+    cursor: pointer;
+}
+.addContainer{
+    position: absolute;
+    background-color: rgb(0.0.0.0.2);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addContainer form{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 40px;
+    box-shadow: 5px 10px rgb(0.0.0.0.2);
+    border-radius: 5px;
+}
+.addContainer input{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.addContainer label{
+    font-size: 18px;
+
+}
+.addContainer form button{
+    background-color: royalblue;
+    margin-top: 20px;
+    font-weight: 500%;
+}
+.addContainer form .close-btn{
+    margin-left: auto;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #000,;
+}
+
+.tableContainer{
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.1);
+}
+.tableContainer table thead tr{
+    background-color: #f0eaea;
+}
+
+.tableContainer table thead tr th,.tableContainer table tbody tr td{
+    min-width: 200px;
+    padding: 7px;
+    text-align: center;
+  
+}
+.tableContainer table tbody tr td{
+    border-bottom: 1px solid #000;
+
+}
+
+.btn-edit{
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rgb(27, 92, 27);
+}
+.btn-delete{
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    background-color: rgb(182, 21, 21);
+}
+
+.tableContainer table tbody tr td .empty{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
